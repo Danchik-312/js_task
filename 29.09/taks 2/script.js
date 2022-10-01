@@ -1,2 +1,2 @@
 let name = "Данил";
-alert("Привет, " + name)
+alert(`Привет, ${name}`)
