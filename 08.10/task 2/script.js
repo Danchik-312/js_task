@@ -5,20 +5,18 @@ var user = {
 let userPassword;
 let userName = prompt("Кто пришёл?");
 
-if (userName !== user.name){
-    alert("Я Вас не знаю!")
+if (userName == null){
+    alert("Вход отменен");
 } else if (userName === user.name){
     userPassword = prompt("Пароль?");
-} else {
-    alert("Вход отменен!"); //Не работает
-}
 
-if (userPassword !== user.password){
-    alert("Пароль неверен!");
-} else if (userPassword === user.password){
-    alert("Добро пожаловать!");
+    if (userPassword == null){
+        alert('Вход отменен');
+    } else if (userPassword === user.password){
+        alert("Добро пожаловать!");
+    } else {
+        alert("Пароль неверен");
+    }
 } else{
-    alert("Вход отменен!"); //Не работает
+    alert('Я Вас не знаю');
 }
-
-//При отмене первой операции - выходит отказ второй
