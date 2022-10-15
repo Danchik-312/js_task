@@ -1,3 +1,3 @@
-let det;
-let number = (det === true) ? 3 : 5;
+let data = true;
+let number = (data === true) ? 3 : 5;
 console.log(number);
