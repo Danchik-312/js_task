@@ -1,5 +1,5 @@
-function cube(a = 10) {
+function cube(a) {
     return document.write(a * a);
 }
 
-cube();
+cube(10);
