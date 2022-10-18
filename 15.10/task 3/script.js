@@ -1,7 +1,8 @@
-function getName(message = "гость") {
-    let youName = `Привет, ${message}`;
+let name = ("Василий")
 
-    return alert(youName);
+function getName(userName = "гость") {
+    let str = `Привет, ${userName}`;
+    return console.log(str);
 }
 
-let name = getName();
+getName(name);

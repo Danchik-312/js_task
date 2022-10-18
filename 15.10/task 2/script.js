@@ -1,5 +1,6 @@
 function cube(a) {
-    return document.write(a * a);
+    let result = (a * a * a);
+    console.log(result);
 }
 
-cube(10);
+cube(5);

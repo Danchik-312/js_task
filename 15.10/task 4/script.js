@@ -1,10 +1,11 @@
-function doubling(example) {
-    let result = [];
-    for (let i = 0; i < example.length; i++) {
-        result.push(example[i] * 2);
+function getDoubling (numbers) {
+    let array = [];
+    for (let i = 0; i < numbers.length; i++) {
+        array.push(numbers[i] * 2);
     }
 
-    return console.log(result);
+    return array;
 }
 
-doubling([2,2,2,2,2,2]);
+let result = getDoubling([2,2,2,2,2,2]);
+console.log(result);

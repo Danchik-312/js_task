@@ -1,7 +1,7 @@
 function hello() {
     let message = "Привет, JavaScript!";
-
-    return alert(message);
+    return message;
 }
 
-hello();
+let text = hello();
+alert(text);
