@@ -1,7 +1,7 @@
 function getName(message = "гость") {
     let youName = `Привет, ${message}`;
 
-    alert(youName);
+    return alert(youName);
 }
 
 let name = getName();
