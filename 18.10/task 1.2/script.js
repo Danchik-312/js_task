@@ -1,7 +1,7 @@
 const myFunc = (name, num) => {
     let solution = [];
     for (let i = 0; i < num; i++){
-        solution.push(num[i] = name);
+        solution.push(name);
     }
 
     return solution;
