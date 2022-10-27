@@ -5,7 +5,7 @@ const myFunc = () =>{
 
     while (number !== 999){
         index++;
-        sum = sum + number;
+        sum += number;
         number = parseFloat(prompt("Введите число:"));
     }
 

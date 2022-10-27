@@ -16,5 +16,5 @@ const users = [
     },
 ]
 
-const found = users.find(elem => elem.isProgrammer = true);
+const found = users.find(elem => elem.isProgrammer === true);
 console.log(found);
