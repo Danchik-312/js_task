@@ -1,12 +1,12 @@
-const btn1 = document.querySelector('#btn1');
-const btn2 = document.querySelector('#btn2');
-const btn3 = document.querySelector('#btn3');
+const img1 = document.querySelector('#img1');
+const img2 = document.querySelector('#img2');
+const img3 = document.querySelector('#img3');
 
 const showMessageHTML = () => alert('HyperText Markup Language');
 const showMessageCSS = () => alert('Cascading Style Sheets');
 const showMessageJS = () => alert('JavaScript');
 
 
-btn1.addEventListener('click',showMessageHTML);
-btn2.addEventListener('dblclick',showMessageCSS);
-btn3.addEventListener('contextmenu',showMessageJS);
+img1.addEventListener('click',showMessageHTML);
+img2.addEventListener('dblclick',showMessageCSS);
+img3.addEventListener('contextmenu',showMessageJS);
