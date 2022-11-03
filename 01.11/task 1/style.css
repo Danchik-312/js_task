@@ -1,0 +1,17 @@
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.images img {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.images button{
+    background-color: transparent;
+    border: none;
+}
