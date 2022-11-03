@@ -1,7 +1,7 @@
 function myFunc (array) {
     let solution = '';
     for (let i = 0; i < arguments.length; i++){
-        solution += arguments[i];
+        solution += arguments[i] + ", ";
     }
 
     return solution;
