@@ -4,10 +4,8 @@ const alertSuccess = document.querySelector("#btn3");
 const alertDanger = document.querySelector("#btn4");
 
 const showNotification = (option) => {
-    const notification = document.createElement('div');
-    notification.classList.add("notification", option.name);
-    notification.innerText = option.text;
-    document.body.prepend(notification);
+    const notification = document.querySelector('.modals');
+    notification.outerHTML = `<div class='notification ${option.name}'>${option.text}</div>`;
 
     setTimeout(() => notification.remove(), 1500);
 }
