@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+body div{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black
+}
+
+.block__first{
+    background-color: aliceblue;
+}
+
+.block__second{
+    background-color: aqua;
+}
+
+.block__third{
+    background-color: cadetblue;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.gray{
+    background-color: gray;
+}
