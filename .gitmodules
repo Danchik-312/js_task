@@ -1,0 +1,3 @@
+[submodule "My-blog"]
+	path = My-blog
+	url = https://github.com/Danchik-312/js_task.git
